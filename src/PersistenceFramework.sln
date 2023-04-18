@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistenceFramework.Abstractions", "PersistenceFramework.Abstractions\PersistenceFramework.Abstractions.csproj", "{E3970933-6E2D-49B6-9139-894E04A1C2B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".items", ".items", "{5784E62C-3AC9-41CF-861B-68FC4CAC2E61}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{4CC34539-2FCC-411D-AC5B-A2ED9365C1F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{506A7F36-FB09-4577-BD93-0073ECC9B90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Generators", "PersistenceFramework.Generators\PersistenceFramework.Generators.csproj", "{70ECF923-8E59-4625-9812-33032FC34110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3970933-6E2D-49B6-9139-894E04A1C2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3970933-6E2D-49B6-9139-894E04A1C2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3970933-6E2D-49B6-9139-894E04A1C2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3970933-6E2D-49B6-9139-894E04A1C2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ECF923-8E59-4625-9812-33032FC34110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ECF923-8E59-4625-9812-33032FC34110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ECF923-8E59-4625-9812-33032FC34110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ECF923-8E59-4625-9812-33032FC34110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3970933-6E2D-49B6-9139-894E04A1C2B0} = {4CC34539-2FCC-411D-AC5B-A2ED9365C1F8}
+		{70ECF923-8E59-4625-9812-33032FC34110} = {4CC34539-2FCC-411D-AC5B-A2ED9365C1F8}
+	EndGlobalSection
+EndGlobal
